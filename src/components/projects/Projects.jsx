@@ -51,7 +51,7 @@ function Projects() {
           Backend used technologies: Node.js, express.js, Mongo-DB
           </p>
           {/*title */}
-          <h1 className='text-center text-xl font-playfair'>Ecommerce websit</h1>
+          <h1 className='text-center text-[15px] md:text-xl font-playfair'>Ecommerce websit</h1>
           {/*links */}
           <div className='flex items-center justify-between px-1 py-3'>
             <span className='text-[35px] cursor-pointer'>
@@ -60,6 +60,7 @@ function Projects() {
                 <AiFillGithub className='rounded-full hover:scale-110 hover:text-teal-500 duration-1000'/>
               </a>
             </span>
+            <h1 className='opacity-100 text-[10px] text-center pl-8 md:opacity-0'>Tap on Photo to description</h1>
             <span className='text-[25px] cursor-pointer hover:text-teal-600 duration-1000 hover:scale-105 font-semibold font-playfair'>
               {/* demo link */}
               <a href="https://mern-stack-blog-v1-frontend.onrender.com/" target='_blank'>Demo</a>
