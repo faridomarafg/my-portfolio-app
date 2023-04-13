@@ -41,7 +41,7 @@ function Projects() {
           {/*imag */}
           <img src={blogImg} alt="projectImg" className='w-full h-[130px] md:h-[200px] object-cover rounded-t-2xl' />
           {/* description */}
-          <p className='absolute text-[9.5px] md:text-[12px] pt-7 md:pt-0 italic  text-white rounded-t-2xl px-2 flex justify-center items-center bg-black opacity-0 hover:opacity-80 h-[200px] duration-1000'>
+          <p className='absolute text-yellow-400 text-[9.5px] md:text-[12px] pt-7 md:pt-0 italic  md:text-white rounded-t-2xl px-2 flex justify-center items-center bg-black opacity-0 hover:opacity-80 h-[155px] duration-1000'>
           This is a full-stack web blog application where you can create a user name, login, create, update, delete, like and comment the post, and it's good to remind you that user can delete, and update only its own post, once user logged those post which is created by user shows the delete and update icon, and also each post shows its creator name.
           <br />
           this blog is fully responsive
