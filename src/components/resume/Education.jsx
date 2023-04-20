@@ -106,9 +106,9 @@ function Education() {
           <h1>
             <h2 className='text-xl font-semibold'>
               From &nbsp; 
-              <span className='text-xs text-yellow-200'>2010 &nbsp;</span> 
+              <span className='text-xs text-yellow-200'>08/09/2022 &nbsp;</span> 
               <span className='text-sm'>To &nbsp;</span> 
-              <span className='text-xs text-yellow-200'>2015</span>
+              <span className='text-xs text-yellow-200'>07/11/2022</span>
             </h2>
           </h1>
       </div>
