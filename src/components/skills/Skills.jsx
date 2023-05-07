@@ -80,7 +80,7 @@ function Features() {
           alt="skillImage" 
           className='w-[75px] h-[75px] sm:w-[120px] sm:h-[120px]  md:w-[120px] md:h-[120px] object-cover border-2 border-x-neutral-900 p-1 shadow-md shadow-yellow-100 rounded-full'
           />
-          <h1 className='text-center text-[13px] md:text-xl  pt-2'>Java script</h1>
+          <h1 className='text-center text-[13px] md:text-xl  pt-2'>React.js</h1>
         </div>
 
         <div className='flex flex-col pb-3 px-4  ms:px-6 md:px-8 items-center rounded-full hover:scale-105 duration-1000'>
