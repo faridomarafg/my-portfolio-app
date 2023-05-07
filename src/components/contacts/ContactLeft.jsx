@@ -34,8 +34,9 @@ const ContactLeft = () => {
          </div>
         {/* description about me */}
         <p className="text-base text-gray-400 tracking-wide">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-          ipsam autem cumque, accusantium dicta odio.
+        I'm a full-stack developer specialised in frontend and backend development for complex scalable web apps.
+        A reliable full stack developer whit solid knowledge in React.js, Node.js, Express js, Mongo-DB, java script, css, tailwind-css.
+        A freelancer as a Mern-stack developer who can help you at front-end whit react-js and javascrip, in backend whit the most demanded technologies node.js, express, and javascrip.
         </p>
         {/* Location */}
         <p className="text-base text-yellow-400 flex items-center gap-2 ">
