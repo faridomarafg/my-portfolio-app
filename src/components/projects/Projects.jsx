@@ -2,6 +2,7 @@ import {motion} from 'framer-motion';
 import {AiFillGithub} from 'react-icons/ai';
 
 import blogImg from '../../images/blogImg.png';
+import ecommerceImage from '../../images/ecommerce-image.png';
 
 const projectImg = 'https://www.iwantclarity.com/wp-content/uploads/2018/10/Website-Redesign-More-Than-Just-Aesthetics@2x-100.jpg';
 
@@ -51,7 +52,7 @@ function Projects() {
           Backend used technologies: Node.js, express.js, Mongo-DB
           </p>
           {/*title */}
-          <h1 className='text-center text-[15px] md:text-xl font-playfair'>Ecommerce websit</h1>
+          <h1 className='text-center text-[15px] md:text-xl font-playfair'>Blog websit</h1>
           {/*links */}
           <div className='flex items-center justify-between px-1 py-3'>
             <span className='text-[35px] cursor-pointer'>
@@ -64,6 +65,38 @@ function Projects() {
             <span className='text-[25px] cursor-pointer hover:text-teal-600 duration-1000 hover:scale-105 font-semibold font-playfair'>
               {/* demo link */}
               <a href="https://mern-stack-blog-v1-frontend.onrender.com/" target='_blank'>Demo</a>
+            </span>
+          </div>
+        </div> 
+
+
+        <div className='flex flex-col border-2 bg-[#2d2c27] hover:bg-[#f6d0245b] rounded-t-2xl  h-fit hover:opacity-80 duration-1000 hover:scale-[103%] relative'>
+          {/*imag */}
+          <img src={ecommerceImage} alt="projectImg" className='w-full h-[130px] md:h-[200px] object-cover rounded-t-2xl' />
+          {/* description */}
+          <p className='absolute text-yellow-400 text-[9.5px] md:text-[12px] pt-7 md:pt-0 italic  md:text-white rounded-t-2xl px-2 flex justify-center items-center bg-black opacity-0 hover:opacity-80 h-[155px] duration-1000'>
+          This is a full-stack ecommerce application where you can make order and buy it with online payment, and also it has a dashboard which only can access with Admin user, that can manage all the features of the application.
+          <br />
+          this application is fully responsive
+          <br />
+          Frontend used technologies: React.js, tailwind-css, Redux-toolkit, Redux-thunk.
+          <br />
+          Backend used technologies: Node.js, express.js, Mongo-DB
+          </p>
+          {/*title */}
+          <h1 className='text-center text-[15px] md:text-xl font-playfair'>Ecommerce websit</h1>
+          {/*links */}
+          <div className='flex items-center justify-between px-1 py-3'>
+            <span className='text-[35px] cursor-pointer'>
+              {/* github link */}
+              <a href="https://github.com/faridomarafg/mern-ecommerce-backend" target='_blank'>
+                <AiFillGithub className='rounded-full hover:scale-110 hover:text-teal-500 duration-1000'/>
+              </a>
+            </span>
+            <h1 className='opacity-100 text-[10px] text-center pl-8 md:opacity-0'>Tap on Photo to description</h1>
+            <span className='text-[25px] cursor-pointer hover:text-teal-600 duration-1000 hover:scale-105 font-semibold font-playfair'>
+              {/* demo link */}
+              <a href="https://mern-ecommerce-front-v1.onrender.com" target='_blank'>Demo</a>
             </span>
           </div>
         </div> 
